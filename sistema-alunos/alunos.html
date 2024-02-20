@@ -10,8 +10,10 @@
     <header>
         <img src="ESE7.png" alt="">
         <nav>
+            <a href="index.html">Index</a>
             <a href="alunos.html">Aluno</a>
-            <a href="index.html">Professor</a>
+            <a href="professor.html">Professor</a>
+            <a href="listaalunos.html">Lista Alunos</a>
         </nav>
            
         <img src="ESE7.png" alt="">
@@ -22,25 +24,51 @@
                 <h2>Cadastro do Aluno</h2>
 
             <form action="alunos.html">
-                <label for="nome">Nome Aluno</label>
-                <input type="text" name="nome" placeholder="Digite seu nome" required>
+                
+                
+        <div class="nome">
+            <label for="nome">Nome Aluno</label>
+            <input type="text" name="nome" placeholder="Digite seu nome" required>
+        </div>
 
-                <label for="endereco">Endereço</label>
-                <input type="text" name="endereco" placeholder="Digite seu endereço" required>
+        <div class="endereco">
+            <label for="endereco">Endereço</label>
+            <input type="text" name="endereco" placeholder="Digite seu endereço" required>
+        </div>
 
-                <label for="idade">Idade</label>
-                <input type="number" name="idade" id="" required>
+        <div class="idade">
+            <label for="idade">Idade</label>
+            <input type="number" name="idade" id="" required>
+        </div>
 
-                <label for="select">Escolha qual cargo</label>
-                <select name="select" id="cargo" name="cargo">
-                    <option value="cargo 6">Integrante</option>
-                    <option value="cargo 5">Integrante Ativo</option>
-                    <option value="cargo 4">Cargo Azul</option>
-                    <option value="cargo 3">Cargo Vermelho</option>
-                    <option value="cargo 2">Lendas</option>
-                </select>
+        <div class="password">
+            <label for="Password">Password</label>
+            <input type="text" name="password"  placeholder="Digite sua senha" required>
+        </div>
+        
+        <div class="city">
+            <label for="select">Cidade</label>
+            <select name="select" id="cargo" name="city">
+                <option value="city 6">Caculé</option>
+                <option value="city 5">Guanambi</option>
+                <option value="city 4">Tauape</option>
+                <option value="city 3">Caitite</option>
+                <option value="city 2">Carinhanha</option>
+            </select>
 
+        <div class="city">
+            <label for="select">Estado</label>
+            <select name="select" id="cargo" name="estado">
+                <option value="city 6">Bahia</option>
+                <option value="city 5">São Paulo</option>
+                <option value="city 4">Acre</option>
+                <option value="city 3">Amazonia</option>
+                <option value="city 2">Distrito Federal</option>
+            </select>
+
+            <div class="enviar">
                 <input type="submit" value="Enviar">
+            </div>
 
             </form>
             </section>
